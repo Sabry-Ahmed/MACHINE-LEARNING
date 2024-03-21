@@ -1,7 +1,7 @@
 ---
 title: MACHINE LEARNING
 emoji: 🏃
-colorFrom: red
+colorFrom: green
 colorTo: yellow
 sdk: streamlit
 sdk_version: 1.32.2
