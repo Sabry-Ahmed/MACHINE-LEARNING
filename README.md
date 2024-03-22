@@ -1,23 +1,12 @@
----
-title: MACHINE LEARNING
-emoji: 🏃
-colorFrom: green
-colorTo: yellow
-sdk: streamlit
-sdk_version: 1.32.2
-app_file: app.py
-pinned: false
----
+
 
 
 [![Sync to Hugging Face hub](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml/badge.svg)](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml)
-![Scheme](./image.png)
-
-
 
 # Multimodal Sentiment Analysis System for Large Companies
 
 This project aims to develop a comprehensive sentiment analysis system tailored for large companies, enabling them to extract and understand customer emotions from both text-based (emails) and audio-based (phone calls) interactions. By analyzing these customer interactions, companies can gain valuable insights to enhance their customer experience and satisfaction levels.
+![Scheme](./image.png)
 
 ## Features
 - **Email Sentiment Analysis:** Automatically analyzes the sentiment of customer emails to determine positivity or negativity.
