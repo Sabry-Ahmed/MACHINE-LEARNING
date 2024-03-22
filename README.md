@@ -11,18 +11,49 @@ pinned: false
 
 
 [![Sync to Hugging Face hub](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml/badge.svg)](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml)
+
 # Multimodal Sentiment Analysis System for Large Companies
 
 This project aims to develop a comprehensive sentiment analysis system tailored for large companies, enabling them to extract and understand customer emotions from both text-based (emails) and audio-based (phone calls) interactions. By analyzing these customer interactions, companies can gain valuable insights to enhance their customer experience and satisfaction levels.
 
-## Dataset
-The project utilizes two types of data:
-- **Text**: Dataset comprising email conversations or transcripts of phone calls between customers and customer service representatives.
-- **Audio**: Recordings of these conversations.
+## Features
+- **Email Sentiment Analysis:** Automatically analyzes the sentiment of customer emails to determine positivity or negativity.
+- **Phone Call Sentiment Analysis:** Performs sentiment analysis on recorded phone calls to identify positive or negative feedback.
 
-## Data Analysis (EDA)
-Exploratory Data Analysis (EDA) includes:
-- Distribution of emotions in both text and audio data.
-- Analysis of conversation lengths.
-- Exploration of emotions expressed in different scenarios.
-- Handling missing values in both audio and text data.
+## Deployment
+The project is deployed on the Hugging Face Spaces platform. You can access the application [here](https://huggingface.co/spaces/jokerthejoke/MACHINE-LEARNING).
+
+## How It Works
+1. **Data Collection:**
+   - Emails and phone call recordings are collected from customer interactions.
+
+2. **Data Processing:**
+   - NLP techniques are used to extract text from emails.
+   - Speech-to-text conversion tools are employed for phone call recordings.
+
+3. **Sentiment Analysis:**
+   - Sentiment analysis algorithms classify the text data into positive or negative sentiments.
+
+## Technologies Used
+- Python
+- Streamlit
+- Hugging Face Spaces
+- Docker
+- Transformers
+
+## Usage
+1. **Local Deployment:**
+   - Clone the project repository from [GitHub](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/).
+   - Navigate to the project directory.
+   - Run `docker-compose up` to deploy the application locally.
+
+2. **Online Access:**
+   - Access the application directly via the provided [Hugging Face Spaces link](https://huggingface.co/spaces/jokerthejoke/MACHINE-LEARNING).
+
+## Future Enhancements
+- Integration with Customer Relationship Management (CRM) systems.
+
+
+
+---
+
