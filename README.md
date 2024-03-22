@@ -1,4 +1,13 @@
-
+---
+title: MACHINE LEARNING
+emoji: 🏃
+colorFrom: green
+colorTo: yellow
+sdk: streamlit
+sdk_version: 1.32.2
+app_file: app.py
+pinned: false
+---
 
 
 [![Sync to Hugging Face hub](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml/badge.svg)](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml)
