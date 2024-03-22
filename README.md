@@ -11,6 +11,9 @@ pinned: false
 
 
 [![Sync to Hugging Face hub](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml/badge.svg)](https://github.com/Sabry-Ahmed/MACHINE-LEARNING/actions/workflows/main.yml)
+![Scheme](./image.png)
+
+
 
 # Multimodal Sentiment Analysis System for Large Companies
 
