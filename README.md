@@ -6,6 +6,52 @@
 # Multimodal Sentiment Analysis System for Large Companies
 
 This project aims to develop a comprehensive sentiment analysis system tailored for large companies, enabling them to extract and understand customer emotions from both text-based (emails) and audio-based (phone calls) interactions. By analyzing these customer interactions, companies can gain valuable insights to enhance their customer experience and satisfaction levels.
+
+
+
+
+
+# Scheme: Data Input and Deployment Workflow
+
+This scheme illustrates the workflow for inputting data (voices and texts) using a Streamlit application and deploying the code to Hugging Face Spaces using GitHub Actions.
+
+## Step 1: Data Input with Streamlit
+
+1. **User Interaction:**
+   - Users interact with a Streamlit web application interface.
+   - The application prompts users to input data in the form of voice recordings or text.
+
+2. **Input Options:**
+   - Users can either upload audio files (e.g., MP3 or WAV) or enter text directly into the application.
+
+3. **Streamlit Interface:**
+   - Streamlit provides an intuitive interface for users to input their data.
+   - It offers functionalities such as file upload widgets and text input fields.
+
+## Step 2: Data Processing and Analysis
+
+4. **Data Processing:**
+   - The Streamlit application processes the input data, handling both audio files and text inputs.
+   - Audio files are converted to text using speech-to-text conversion libraries (e.g., librosa).
+   - Text inputs are directly processed for sentiment analysis.
+
+5. **Sentiment Analysis:**
+   - Sentiment analysis algorithms analyze the processed text data to determine sentiment (positive, negative, neutral).
+
+## Step 3: Deployment to Hugging Face Spaces
+
+6. **Git Version Control:**
+   - The code, including the Streamlit application and sentiment analysis scripts, is version-controlled using Git.
+   - Changes and updates are tracked using Git commits.
+
+7. **GitHub Actions:**
+   - GitHub Actions are configured to automate the deployment process.
+   - Upon pushing changes to the Git repository, GitHub Actions trigger deployment to Hugging Face Spaces.
+
+8. **Hugging Face Spaces:**
+   - The code is deployed to Hugging Face Spaces, making the Streamlit application accessible online.
+   - Users can interact with the deployed application through the Hugging Face Spaces platform.
+
 ![Scheme](./image.png)
 
 ## Features
